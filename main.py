@@ -2,6 +2,7 @@ import os
 import re
 
 try:
+    print('Max image width (px), default: 600')
     img_max_width = int(input())
     print(f'using user specified value: {img_max_width}')
 except:
